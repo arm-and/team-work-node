@@ -1,6 +1,6 @@
 
 async function getResponse(){
-    let response = await fetch('http://localhost:3000/')
+    let response = await fetch('http://localhost:5000/')
     let content = await response.json()
 
 let list = document.querySelector('.posts')
